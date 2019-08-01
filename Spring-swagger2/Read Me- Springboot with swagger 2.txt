@@ -1,0 +1,48 @@
+Debendenciy : 
+https://mvnrepository.com/artifact/io.springfox/springfox-swagger2/2.9.2
+
+<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.9.2</version>
+</dependency>
+
+
+URL 
+
+Adding @EnableSwagger2 to Springboot Application
+
+access the server on : 
+localhost:8080/v2/api-docs
+
+////////////////////
+
+For Better UI 
+
+add Springfox-swagger-UI
+
+add dependency 
+
+and change the main branch (/) 
+
+and now you could easly try and test API and check web application
+http://localhost:8080/swagger-ui.html
+
+
+---------------------------
+
+you could use Postman to test the json.
+
+Headers :
+
+Body
+
+{
+    "title":"Java",
+	
+     "author":"Ismail",
+	
+     "type":"programing Java"
+
+}
